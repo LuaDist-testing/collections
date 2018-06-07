@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "collections"
-version = "1.0.0-3"
+version = "1.0.0-4"
 -- LuaDist source
 source = {
-  tag = "1.0.0-3",
+  tag = "1.0.0-4",
   url = "git://github.com/LuaDist-testing/collections.git"
 }
 -- Original source
@@ -19,8 +19,9 @@ description = {
 build = {
 	type = "builtin",
 	modules = {
-		collections = "src/collection.lua",
+		collection = "src/collection.lua",
 		array_list = "src/array_list.lua",
-		set = "src/set.lua"
+		set = "src/set.lua",
+		["util.class"] = "src/util/class.lua"
 	}
 }
