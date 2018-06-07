@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "collections"
-version = "1.0.0-2"
+version = "1.0.0-3"
 -- LuaDist source
 source = {
-  tag = "1.0.0-2",
+  tag = "1.0.0-3",
   url = "git://github.com/LuaDist-testing/collections.git"
 }
 -- Original source
